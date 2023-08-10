@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>2D Framework\PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="MG_Diablo.cpp" />
+    <ClCompile Include="GameNode.cpp">
+      <Filter>2D Framework\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="GImage.cpp">
+      <Filter>GImage</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>2D Framework\FrameworkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>2D Framework\FrameworkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TempSoundManager.cpp">
+      <Filter>2D Framework\FrameworkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>2D Framework\FrameworkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSelect.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TownStage.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MainTitle.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Fallen.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Astar.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>2D Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="2D Framework">
+      <UniqueIdentifier>{91b2dac3-e853-45d8-8427-10b3c54afd5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\DesignPattern">
+      <UniqueIdentifier>{543ac679-66b3-4686-9e51-beff27969c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\FrameworkManager">
+      <UniqueIdentifier>{9ac85df7-ded4-4235-8f37-cf95bdeb203f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\GameCore">
+      <UniqueIdentifier>{8448affe-aee7-472f-acd3-87927a883705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\PCH">
+      <UniqueIdentifier>{056b2d24-3d3c-40b1-8ecd-95949a407ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Utility">
+      <UniqueIdentifier>{55037345-b148-4491-b32f-0749da31afdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GImage">
+      <UniqueIdentifier>{01fddae5-8abb-4f39-a27c-b07f31c0fda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ManagerClass">
+      <UniqueIdentifier>{a3ea3843-c52b-489b-af26-a8d867a96578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\DesignPattern\Singleton">
+      <UniqueIdentifier>{dacaf22a-62a5-44b5-ac90-9514ea11ce12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Utility\Math">
+      <UniqueIdentifier>{e49b5469-f3da-40dd-a0df-c0b2277f2296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{0b10a2fb-8e0b-4ef6-a343-399899cdd75e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{20ffda0e-ad71-42ea-8baa-29351fc76445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{932c15da-470f-492c-a82e-613b84a61739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{796b8671-b8b1-4c88-a8fc-f01050179d8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{9c2ade94-9051-4c80-aef1-087ee99aebff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stdafx.h">
+      <Filter>2D Framework\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="MG_Diablo.h" />
+    <ClInclude Include="GameNode.h">
+      <Filter>2D Framework\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="GImage.h">
+      <Filter>GImage</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>2D Framework\FrameworkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>2D Framework\FrameworkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TempSoundManager.h">
+      <Filter>2D Framework\FrameworkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>2D Framework\DesignPattern\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomFuction.h">
+      <Filter>2D Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>2D Framework\FrameworkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMacroFunction.h">
+      <Filter>2D Framework\Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSelect.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TownStage.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MainTitle.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fallen.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Astar.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
